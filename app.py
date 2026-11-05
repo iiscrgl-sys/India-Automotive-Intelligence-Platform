@@ -42,12 +42,22 @@ def _fix(df):
     return df
 
 
+LOAD_TIME = [0.0]                                       # seconds spent getting data on this page view (E5 breakdown)
+
+
 @st.cache_data(show_spinner=False)
-def load(name, folder="gold"):
+def _load_cached(name, folder="gold"):
     if TEST_CSV:
         return _fix(pd.read_csv(Path(TEST_CSV) / f"{name}.csv"))
     path = WH / folder / (f"{name}.parquet" if DEPLOY else name)   # cloud: one file per table; laptop: Spark folders
     return _fix(pd.read_parquet(path))
+
+
+def load(name, folder="gold"):
+    t = time.perf_counter()
+    df = _load_cached(name, folder)
+    LOAD_TIME[0] += time.perf_counter() - t
+    return df
 
 
 @st.cache_data(show_spinner=False)
@@ -453,3 +463,6 @@ elapsed = time.perf_counter() - T_START
 st.sidebar.markdown("---")
 st.sidebar.metric("⏱️ Page rendered in", f"{elapsed:.2f} s", "target < 3 s" + (" ✓" if elapsed < 3 else " ✗"),
                   delta_color="normal" if elapsed < 3 else "inverse")
+st.sidebar.caption(f"data {LOAD_TIME[0]:.2f} s · charts and layout {elapsed - LOAD_TIME[0]:.2f} s. "
+                   "The first view after the app wakes up also reads the files into memory; "
+                   "later views reuse that cache.")

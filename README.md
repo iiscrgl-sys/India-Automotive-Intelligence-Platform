@@ -2,6 +2,12 @@
 
 **IISc DA 231o · Data Engineering at Scale · Team The Quants**
 
+### 🔗 Live dashboard: **<https://iaip-thequants.streamlit.app/>**
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://iaip-thequants.streamlit.app/)
+
+Works on phone, tablet and PC. If the app has been asleep, click *"Yes, get this app back up!"* and wait about a minute.
+
 A big-data pipeline on India's new-vehicle registrations (VAHAN, Ministry of Road Transport & Highways) and road-safety statistics (MoRTH), from raw government files to an interactive dashboard.
 
 ## What is in this repository
