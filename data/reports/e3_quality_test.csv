@@ -1,0 +1,10 @@
+err_type,injected,caught,exact_cell,example_rules_that_fired,caught_pct
+unknown state,50,50,50,"unknown state, incomplete row, row total",100.0
+bad month label,50,50,50,"bad month, incomplete row, row total, incomplete month, month total",100.0
+missing value,50,50,50,"missing value, row total, month total",100.0
+text in number,50,50,50,"not a number, row total, month total",100.0
+negative value,50,50,50,"negative, row total, incomplete month, month total",100.0
+decimal value,50,50,50,"not whole, row total, month total",100.0
+duplicate row,50,50,50,"duplicate, row total, month total",100.0
+quietly changed value,50,50,50,"row total, month total",100.0
+lost row,50,50,50,"incomplete row, row total, incomplete month, month total",100.0
