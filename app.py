@@ -45,22 +45,32 @@ def _fix(df):
 LOAD_TIME = [0.0]                                       # seconds spent getting data on this page view (E5 breakdown)
 
 
-@st.cache_data(show_spinner=False)
-def _load_cached(name, folder="gold"):
+def _path(name, folder):
     if TEST_CSV:
-        return _fix(pd.read_csv(Path(TEST_CSV) / f"{name}.csv"))
-    path = WH / folder / (f"{name}.parquet" if DEPLOY else name)   # cloud: one file per table; laptop: Spark folders
-    return _fix(pd.read_parquet(path))
+        return Path(TEST_CSV) / f"{name}.csv"
+    return WH / folder / (f"{name}.parquet" if DEPLOY else name)    # cloud: one file per table; laptop: Spark folders
+
+
+def _version(path):
+    """Last-changed time of a table. It is part of the cache key, so new data (e.g. a GitHub upload) is picked up."""
+    if path.is_dir():
+        return max((f.stat().st_mtime for f in path.rglob("*.parquet")), default=0.0)
+    return path.stat().st_mtime if path.exists() else 0.0
+
+
+@st.cache_data(show_spinner=False)
+def _load_cached(name, folder, version):
+    path = _path(name, folder)
+    return _fix(pd.read_csv(path) if TEST_CSV else pd.read_parquet(path))
 
 
 def load(name, folder="gold"):
     t = time.perf_counter()
-    df = _load_cached(name, folder)
+    df = _load_cached(name, folder, _version(_path(name, folder)))
     LOAD_TIME[0] += time.perf_counter() - t
     return df
 
 
-@st.cache_data(show_spinner=False)
 def load_optional(name, folder):
     try:
         return load(name, folder)
@@ -68,7 +78,6 @@ def load_optional(name, folder):
         return None
 
 
-@st.cache_data(show_spinner=False)
 def state_groups():
     """KMeans groups with a plain-English name from each group's averages (robust to KMeans renumbering)."""
     g = load_optional("ml_state_groups", "gold")
@@ -96,9 +105,13 @@ def state_groups():
 
 
 @st.cache_data(show_spinner=False)
+def _report_cached(name, version):
+    return pd.read_csv(REPORTS / f"{name}.csv")
+
+
 def load_report(name):
     p = REPORTS / f"{name}.csv"
-    return pd.read_csv(p) if p.exists() else None
+    return _report_cached(name, p.stat().st_mtime) if p.exists() else None
 
 
 def crore(n):
