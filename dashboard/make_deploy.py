@@ -48,8 +48,9 @@ for f in ["e1_scalability.csv", "e3_quality_test.csv"]:
 
 for f in ["app.py", "requirements.txt", "README.md"]:
     shutil.copy2(HERE / f, OUT / f)
-(OUT / ".streamlit").mkdir(exist_ok=True)
-shutil.copy2(HERE / ".streamlit" / "config.toml", OUT / ".streamlit" / "config.toml")
+if (HERE / ".streamlit" / "config.toml").exists():          # optional theme file
+    (OUT / ".streamlit").mkdir(exist_ok=True)
+    shutil.copy2(HERE / ".streamlit" / "config.toml", OUT / ".streamlit" / "config.toml")
 
 n_files = sum(1 for p in OUT.rglob("*") if p.is_file())
 print(f"\nDeploy folder ready: {OUT}")
