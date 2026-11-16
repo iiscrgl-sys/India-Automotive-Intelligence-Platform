@@ -1,0 +1,38 @@
+"Fuel (DIESEL/HYBRID, PETROL(E20)/HYBRID, PETROL(E20)/HYBRID/CNG, PETROL/HYBRID, PETROL/HYBRID/CNG, PLUG-IN HYBRID EV, STRONG HYBRID EV), Emission (BHARAT STAGE I, BHARAT STAGE II, BHARAT STAGE III, BHARAT STAGE III/IV, BHARAT STAGE IV, BHARAT STAGE VI, Bharat Trem Stage III, Bharat Trem Stage III A, Bharat Trem Stage III B, Bharat Stage III CEV, CEV STAGE IV, CEV STAGE V, EURO 6AD, EURO 1, EURO 2, EURO 3, EURO 4, EURO 6, EURO 6A, EURO 6B, EURO 6C, EURO 6D, Not Applicable, Not Available, TREM STAGE IV, TREM STAGE V), Category Group (Ambulance/Hearses, Bus, Construction Equipment Vehicle, Goods Vehicle, Tractor, Public Service Vehicle, Special Category Vehicles, Trailer, Four Wheeler, Three Wheeler, Two Wheeler), Sub-Category (FOUR WHEELER (Invalid Carriage), HEAVY GOODS VEHICLE, HEAVY MOTOR VEHICLE, HEAVY PASSENGER VEHICLE, LIGHT GOODS VEHICLE, LIGHT MOTOR VEHICLE, LIGHT PASSENGER VEHICLE, MEDIUM GOODS VEHICLE, MEDIUM MOTOR VEHICLE, MEDIUM PASSENGER VEHICLE, OTHER THAN MENTIONED ABOVE, THREE WHEELER (Invalid Carriage), THREE WHEELER(NT), THREE WHEELER(T), TWO WHEELER (Invalid Carriage), TWO WHEELER(NT), TWO WHEELER(T)), Class (Adapted Vehicle, Agricultural Tractor, Ambulance, Animal Ambulance, Armoured/Specialised Vehicle, Articulated Vehicle, Auxiliary Trailer, Breakdown Van, Bulldozer, Bus, Camper Van / Trailer, Camper Van / Trailer (Private Use), Cash Van, Construction Equipment Vehicle, Construction Equipment Vehicle (Commercial), Crane Mounted Vehicle, Dumper, Earth Moving Equipment, Educational Institution Bus, Excavator (Commercial), Excavator (NT), Fire Fighting Vehicle, Fire Tenders, Fork Lift, Goods Carrier, Harvester, Hearses, Library Van, Luxury Cab, M-Cycle/Scooter, M-Cycle/Scooter-With Side Car, Maxi Cab, Mobile Canteen, Mobile Clinic, Mobile Workshop, Modular Hydraulic Trailer, Moped, Motor Cab, Motor Car, Motor Caravan, Motor Cycle/Scooter-SideCar(T), Motor Cycle/Scooter-Used For Hire, Motor Cycle/Scooter-With Trailer, Motorised Cycle (CC 25cc), Omni Bus, Omni Bus (Private Use), Power Tiller, Power Tiller (Commercial), Private Service Vehicle, Private Service Vehicle (Individual Use), Puller Tractor, Quadricycle (Commercial), Quadricycle (Private), Recovery Vehicle, Road Roller, School Bus, Semi-Trailer (Commercial), Snorked Ladders, Three Wheeler (Goods), Three Wheeler (Passenger), Three Wheeler (Personal), Tow Truck, Tower Wagon, Tractor (Commercial), Tractor-Trolley(Commercial), Trailer (Agricultural), Trailer (Commercial), Trailer For Personal Use, Tree Trimming Vehicle, Vehicle Fitted With Compressor, Vehicle Fitted With Generator, Vehicle Fitted With Rig, Vintage Motor Vehicle, X-Ray Van, e-Rickshaw with Cart (G), e-Rickshaw(P)), Owner Type (AUTONOMOUS BODY, CENTRAL GOVERNMENT, CHARITABLE TRUST, DIVYANGJAN (Availing GST Concession), DIVYANGJAN (Without Availing GST Concession), DRAMA/TAMASHA GROUPS, DRIVING TRAINING SCHOOL, EDUCATIONAL INSTITUTE, FIRM, GOVERNMENT BOARD, GOVERNMENT COMPANY, GOVERNMENT CORPORATION, GOVERNMENT DEPARTMENT, GOVERNMENT ENTITY, GOVERNMENT TRUST, GOVT UNDERTAKING, INDIVIDUAL, JOINT STOCK COMPANY, LOCAL AUTHORITY, MULTIPLE OWNER, OTHERS, POLICE DEPARTMENT, SCHOOL, SOCIAL WELFARE, STATE GOVERNMENT, STATE TRANSPORT CORP/DEPT, STATE UNIVERSITIES), Type (Transport) Wise State Wise and Month Wise Data for AN, AP, AR, AS, BR, CH, CG, DL, GA, GJ, HR, HP, JK, JH, KA, KL, LA, LD, MP, MH, MN, ML, MZ, NL, OR, PY, PB, RJ, SK, TN, TG, TR, DD, UP, UK, WB (2026)"\n\nState,2026-Jan,2026-Feb,2026-Mar,2026-Apr,2026-May,2026-Jun,2026-Jul,2026-Aug,2026-Sep,2026-Oct,2026-Nov,Total
+Andaman & Nicobar Island,9,24,21,8,16,27,30,23,33,21,3,215
+Andhra Pradesh,38,26,52,60,64,88,67,72,80,95,16,658
+Arunachal Pradesh,0,3,1,3,3,5,6,3,8,7,2,41
+Assam,8,2,20,8,17,19,12,33,46,27,6,198
+Bihar,10,2,7,8,1,2,4,8,4,5,2,53
+Chandigarh,0,1,2,0,2,0,0,2,0,0,0,7
+Chhattisgarh,34,20,15,9,13,14,9,12,22,13,4,165
+Delhi,1,0,1,0,0,0,0,0,0,1,0,3
+Goa,42,41,38,27,19,36,35,38,68,62,17,423
+Gujarat,8,26,20,28,24,14,15,21,22,27,8,213
+Haryana,48,143,70,70,60,44,66,59,71,61,14,706
+Himachal Pradesh,43,84,86,109,76,73,84,55,58,81,42,791
+Jammu and Kashmir,25,52,50,53,45,69,64,74,45,42,11,530
+Jharkhand,1,3,3,3,5,3,2,4,0,4,5,33
+Karnataka,76,84,118,109,55,93,88,98,94,134,58,1007
+Kerala,34,41,54,52,59,63,56,42,55,58,31,545
+Ladakh,0,0,0,2,9,0,3,3,5,5,3,30
+Lakshadweep,0,0,0,0,0,6,0,0,0,0,0,6
+Madhya Pradesh,17,9,31,11,12,8,8,17,11,14,6,144
+Maharashtra,152,68,70,55,46,28,47,62,101,445,108,1182
+Manipur,0,0,0,0,0,0,0,0,0,0,0,0
+Meghalaya,1,11,9,7,11,16,10,18,10,11,3,107
+Mizoram,0,0,1,0,1,0,0,1,2,1,0,6
+Nagaland,0,0,0,0,0,0,1,0,0,1,0,2
+Odisha,44,29,33,22,32,22,28,31,29,39,8,317
+Puducherry,8,8,5,9,4,2,7,5,11,6,3,68
+Punjab,8,14,49,26,35,28,24,17,24,15,6,246
+Rajasthan,11,11,19,13,13,8,10,11,7,19,6,128
+Sikkim,0,0,5,6,5,4,3,2,2,3,3,33
+Tamil Nadu,76,148,151,139,115,103,73,139,147,132,35,1258
+Telangana,1,0,0,0,0,0,0,1,1,1,1,5
+Tripura,0,1,0,0,0,0,0,1,1,1,0,4
+UT of DNH and DD,2,9,11,7,2,13,4,10,9,3,0,70
+Uttar Pradesh,8,6,5,6,2,5,1,7,4,2,0,46
+Uttarakhand,99,81,58,65,82,68,59,53,59,63,25,712
+West Bengal,46,22,17,12,27,30,43,33,42,35,8,315
+Total,850,969,1022,927,855,891,859,955,1071,1434,434,10267
