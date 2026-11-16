@@ -1,0 +1,95 @@
+page,visual,type,total_ms,dax_ms
+(slicers/text),Text box,textbox,54,0
+(slicers/text),Slicer,slicer,61,0
+(slicers/text),Slicer,slicer,61,0
+(slicers/text),Slicer,slicer,61,0
+India overview,EV share by state,clusteredBarChart,128,7
+India overview,Monthly new registrations,lineChart,127,7
+India overview,Fuel mix of new registrations (%),hundredPercentStackedColumnChart,128,11
+India overview,Card,cardVisual,130,5
+India overview,Card,cardVisual,144,6
+India overview,Card,cardVisual,145,6
+India overview,Card,cardVisual,138,5
+(slicers/text),Text box,textbox,28,0
+(slicers/text),Slicer,slicer,78,0
+(slicers/text),Slicer,slicer,77,0
+(slicers/text),Slicer,slicer,77,0
+EV & vehicle mix,EV Share % by month_date and vehicle_type_name,lineChart,145,6
+EV & vehicle mix,New registrations by vehicle category,barChart,144,4
+EV & vehicle mix,New registrations by emission norm,donutChart,143,4
+EV & vehicle mix,EV share by state and year (%),pivotTable,239,7
+(slicers/text),Text box,textbox,41,0
+(slicers/text),Slicer,slicer,93,0
+(slicers/text),Slicer,slicer,92,0
+(slicers/text),Slicer,slicer,91,0
+India overview,EV share by state,clusteredBarChart,146,0
+India overview,Monthly new registrations,lineChart,146,0
+India overview,Fuel mix of new registrations (%),hundredPercentStackedColumnChart,145,0
+India overview,Card,cardVisual,179,0
+India overview,Card,cardVisual,181,0
+India overview,Card,cardVisual,182,0
+India overview,Card,cardVisual,168,0
+(slicers/text),Text box,textbox,26,0
+(slicers/text),Slicer,slicer,78,0
+(slicers/text),Slicer,slicer,78,0
+(slicers/text),Slicer,slicer,77,0
+EV & vehicle mix,EV Share % by month_date and vehicle_type_name,lineChart,129,0
+EV & vehicle mix,New registrations by vehicle category,barChart,128,0
+EV & vehicle mix,New registrations by emission norm,donutChart,126,0
+EV & vehicle mix,EV share by state and year (%),pivotTable,237,0
+(slicers/text),Text box,textbox,25,0
+(slicers/text),Slicer,slicer,70,0
+(slicers/text),Slicer,slicer,69,0
+(slicers/text),Slicer,slicer,69,0
+Brands,Brand Share % by year and brand,lineChart,116,4
+Brands,Brand Share % by brand,clusteredBarChart,116,4
+(slicers/text),Text box,textbox,28,0
+(slicers/text),Slicer,slicer,82,0
+(slicers/text),Slicer,slicer,81,0
+(slicers/text),Slicer,slicer,81,0
+EV & vehicle mix,EV Share % by month_date and vehicle_type_name,lineChart,122,0
+EV & vehicle mix,New registrations by vehicle category,barChart,121,0
+EV & vehicle mix,New registrations by emission norm,donutChart,121,0
+EV & vehicle mix,EV share by state and year (%),pivotTable,216,0
+(slicers/text),Text box,textbox,50,0
+(slicers/text),Slicer,slicer,57,0
+(slicers/text),Slicer,slicer,57,0
+(slicers/text),Slicer,slicer,57,0
+EV & vehicle mix,EV Share % by month_date and vehicle_type_name,lineChart,120,7
+EV & vehicle mix,New registrations by vehicle category,barChart,90,0
+EV & vehicle mix,New registrations by emission norm,donutChart,119,0
+EV & vehicle mix,EV share by state and year (%),pivotTable,140,9
+(slicers/text),Text box,textbox,38,0
+(slicers/text),Slicer,slicer,43,0
+(slicers/text),Slicer,slicer,43,0
+(slicers/text),Slicer,slicer,43,0
+EV & vehicle mix,EV Share % by month_date and vehicle_type_name,lineChart,104,9
+EV & vehicle mix,New registrations by vehicle category,barChart,72,7
+EV & vehicle mix,New registrations by emission norm,donutChart,102,7
+EV & vehicle mix,EV share by state and year (%),pivotTable,122,10
+(slicers/text),Text box,textbox,27,0
+(slicers/text),Slicer,slicer,78,0
+(slicers/text),Slicer,slicer,77,0
+(slicers/text),Slicer,slicer,77,0
+Brands,Brand Share % by year and brand,lineChart,132,4
+Brands,Brand Share % by brand,clusteredBarChart,131,3
+(slicers/text),Text box,textbox,44,0
+(slicers/text),Slicer,slicer,52,0
+(slicers/text),Slicer,slicer,52,0
+(slicers/text),Slicer,slicer,51,0
+Brands,Brand Share % by year and brand,lineChart,117,4
+Brands,Brand Share % by brand,clusteredBarChart,88,4
+(slicers/text),Text box,textbox,29,0
+(slicers/text),Slicer,slicer,95,0
+(slicers/text),Slicer,slicer,95,0
+(slicers/text),Slicer,slicer,94,0
+(slicers/text),Text box,textbox,27,0
+Road safety,Total Registrations and Road Deaths by state_name,scatterChart,148,5
+Road safety,Table,tableEx,173,7
+(slicers/text),Text box,textbox,43,0
+(slicers/text),Slicer,slicer,56,0
+(slicers/text),Slicer,slicer,56,0
+(slicers/text),Slicer,slicer,56,0
+(slicers/text),Text box,textbox,42,0
+Road safety,Total Registrations and Road Deaths by state_name,scatterChart,76,4
+Road safety,Table,tableEx,120,6

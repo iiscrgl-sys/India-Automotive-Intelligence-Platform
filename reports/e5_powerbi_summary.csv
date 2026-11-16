@@ -1,0 +1,6 @@
+page,visual_renders,slowest_visual,slowest_ms,median_ms,max_dax_ms,target_ms,pass
+(slicers/text),50,Slicer,95,57,0,3000,True
+India overview,14,Card,182,145,11,3000,True
+EV & vehicle mix,20,EV share by state and year (%),239,126,10,3000,True
+Brands,6,Brand Share % by year and brand,132,117,4,3000,True
+Road safety,4,Table,173,148,7,3000,True

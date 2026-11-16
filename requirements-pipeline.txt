@@ -1,0 +1,8 @@
+# Pipeline notebooks 01-06 (tested on Windows 11, Python 3.11.9, Temurin JDK 17)
+pyspark==4.2.0
+pandas
+numpy
+pyarrow
+matplotlib
+# Notebook 04 also needs Docker Desktop (Kafka runs from streaming/docker-compose.yml).
+# Spark downloads the matching spark-sql-kafka connector automatically on first run.
